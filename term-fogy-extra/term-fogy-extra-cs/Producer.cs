@@ -40,7 +40,7 @@ namespace term_fogy_extra
                         color = ConsoleColor.Yellow;
                     }
                     Manager.writer.Write(line, 
-                        string.Format("A(z) {0} fogyasztó elkészül {1} másodpercen belül.",line + 1,i),
+                        string.Format("A(z) {0} termelő elkészül {1} másodpercen belül.",line + 1,i),
                         color);
                     System.Threading.Thread.Sleep(1000);
                 }
